@@ -1353,6 +1353,11 @@ html:has(.onyx-deck) body::-webkit-scrollbar { display: none; }
   transition: color 160ms ease, border-color 160ms ease;
 }
 
+.footer-github-link {
+  display: inline-flex;
+  align-items: center;
+}
+
 .karte-header nav a:hover,
 .karte-header nav a[aria-current='page'],
 .product-footer-bottom nav a:hover {
